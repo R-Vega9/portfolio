@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  /* body will cover the whole wep page and I want to center it and provide it with a black background and white lettering */
+  body {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  
+  }
+  /* Sized the img to an appropriate size and provided a border radius */
+  img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  /* Changed the font size of my navigation bar */
+  nav {
+    font-size: 18px;
+  }
+  /* provided hr with a top/bottom margin of 20 and left/right of 40px */
+  hr {
+    margin: 20px 40px;
+  }
+  h3 {
+    padding: 0px;
+  }
+  .container {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .bulletin {
+    display: inline-block;
+  }
+  /* Created padding to seperate the linkin from github */
+  .list-item {
+    padding-bottom: 10px;
+  }
+  /* Changed color of link to white to match the rest of the page */
+  a {
+  color: white;
+  }
+  
+  /* Allowed the link color to change to red when cursor is hovered over link */
+  a:hover   {color: red;}
+  
